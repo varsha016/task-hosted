@@ -26,7 +26,7 @@ app.use(cors({
             "http://localhost:5173",
             "http://127.0.0.1:5173",
             // "https://rich-jade-salmon-wrap.cyclic.app"
-            "https://e-commerce-wmca.onrender.com/"
+            "https://e-commerce-wmca.onrender.com"
         ]
         if (allowed.indexOf(o) !== -1 || !o) {
             cb(null, true)
