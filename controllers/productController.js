@@ -45,7 +45,7 @@ exports.addProduct = asyncHandler(async (req, res) => {
         const fileNames = []
         for (let i = 0; i < req.files.length; i++) {
 
-            fileNames.push(`${URL}/assets/images/producs/${req.files[i].filename}`)
+            fileNames.push(`${process.env.URL}/assets/images/producs/${req.files[i].filename}`)
 
 
         }
